@@ -9,7 +9,10 @@ import Error from './pages/Error';
 export default function App() {
   return (
     <main>
-      <h1>Hello from App!</h1>
+      <Home />
+      <Rooms />
+      <SingleRoom />
+      <Error />
     </main>
   );
 }
