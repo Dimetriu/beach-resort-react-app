@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function SingleRoom() {
-  return (
-    <p>Hello from Single Room Page</p>
-  );
+class SimgleRoom extends Component {
+  render() {
+    return (
+      <p>
+        Hello from Single Room page
+      </p>
+    );
+  }
 }
+
+export default SimgleRoom;
