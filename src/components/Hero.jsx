@@ -1,7 +1,9 @@
 import React from 'react';
 
-export default function Hero() {
+export default function Hero({ children, hero = "defaultHero" }) {
   return (
-    <p>Hero</p>
+    <header className={hero}>
+      { children }
+    </header>
   );
 }
