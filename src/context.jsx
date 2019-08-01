@@ -9,8 +9,8 @@ class RoomProvider extends Component {
     const { children } = this.props;
 
     return (
-      <RoomContext.Provider value="hello">
-
+      <RoomContext.Provider value={"hello"}>
+        {children}
       </RoomContext.Provider>
     );
   }
